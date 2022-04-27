@@ -1,7 +1,7 @@
-import * as THREE from "/js/threeR136/build/three.module.js";
-import { OrbitControls } from "/js/threeR136/examples/jsm/controls/OrbitControls.js";
-import * as BufferGeometryUtils from "/js/threeR136/examples/jsm/utils/BufferGeometryUtils.js";
-import { TWEEN } from "/js/threeR136/examples/jsm/libs/tween.module.min.js";
+import * as THREE from "./js/threeR136/build/three.module.js";
+import { OrbitControls } from "./js/threeR136/examples/jsm/controls/OrbitControls.js";
+import * as BufferGeometryUtils from "./js/threeR136/examples/jsm/utils/BufferGeometryUtils.js";
+import { TWEEN } from "./js/threeR136/examples/jsm/libs/tween.module.min.js";
 
 let scene = new THREE.Scene();
 let camera = new THREE.PerspectiveCamera(60, innerWidth / innerHeight, 0.1, 2000);
